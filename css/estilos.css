@@ -17,6 +17,12 @@ a {
 
 }
 
+body {
+
+    background-image: url(../img/fondo.png);
+
+}
+
 /**Lista de reproduccion lateral**/
 
 .lista_reproduccion {
@@ -50,8 +56,8 @@ a {
 
     margin: 0.3em 0;
     width: 10em;
-    height: 2em;
-    font-size: 1em;
+    height: 3em;
+    font-size: 1.3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     background-color: #ffd60a;
     border: none;
@@ -89,3 +95,82 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 
 }
+
+/**configuracion de el barra de busqueda superior**/
+
+nav {
+
+    margin: 0 0 0 23%;
+    background-color: #001D3D;
+    height: 2.7em;
+    color: #FFC300;
+    padding: 0.7em;
+    font-size: 3em;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav svg {
+
+    fill: #FFC300;
+    width: 1em;
+    height: auto;
+    margin: 0 0.8em;
+
+}
+
+/**modificacion del a barra de busqueda input search **/
+
+.busqueda {
+
+    background-color: #003566;
+    border: none;
+    border-radius: 3em;
+    width: 90%;
+    color: #000814;
+    font-size: 0.5em;
+    padding: 0 0 0 0.3em;
+    margin: 0 2em 0 0.3em;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+
+}
+
+
+
+nav button {
+
+    background-color: transparent;
+    border: none;
+    font-size: 0.8em;
+    margin-left: -1em;
+    margin-right: 2em;
+
+}
+
+/***empezamos con los contenedores de recomendacion**/
+
+.content {
+
+    margin-left: 25%;
+    height: 50em;
+    text-align: center;
+
+}
+
+.principal {
+
+    padding: 3em 2em;
+    border-bottom: ;
+    
+}
+
+.principal img {
+
+    width: 50%;
+    border-radius: 10%;
+
+}
+
+/**carrusel imagenes**/
