@@ -1,0 +1,91 @@
+* {
+
+    padding: 0;
+    margin: 0;
+
+}
+
+img {
+
+    width: 100%;
+
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+/**Lista de reproduccion lateral**/
+
+.lista_reproduccion {
+
+    background-color: #000814;
+    width: 23%;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    padding: 1%;
+
+}
+
+/**oculta barra de scroll :) **/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.perfil_superior {
+
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 2px #FFFFFF;
+    margin: 0 0 10%;
+    padding: 5%;
+
+}
+
+.perfil_superior button{
+
+    margin: 0.3em 0;
+    width: 10em;
+    height: 2em;
+    font-size: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffd60a;
+    border: none;
+    border-radius: 10px;
+
+}
+
+/**Esto configura las canciones individualmente**/
+
+.cancion {
+
+    background-color: #001D3D;
+    width: 90%;
+    margin: 2em 0;
+    border-radius: 1em;
+    font-size: 0.85em;
+
+}
+
+.cancion img {
+
+    width: 30%;
+    display: inline-block;
+    border-radius: 1em;
+
+}
+
+.titulos {
+
+    color: #FFFFFF;
+    vertical-align: top;
+    margin: 1em 1em;
+    width: 50%;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
