@@ -17,9 +17,14 @@ a {
 
 }
 
-body {
 
+.fondo {
+
+    min-height: 100vh;
+    position: fixed;
+    width: 100%;
     background-image: url(../img/fondo.png);
+    z-index: -1;
 
 }
 
@@ -70,16 +75,17 @@ body {
 .cancion {
 
     background-color: #001D3D;
+    height: auto;
     width: 90%;
     margin: 2em 0;
     border-radius: 1em;
-    font-size: 0.85em;
+    font-size: 0.8em;
 
 }
 
 .cancion img {
 
-    width: 30%;
+    width: 40%;
     display: inline-block;
     border-radius: 1em;
 
@@ -89,34 +95,51 @@ body {
 
     color: #FFFFFF;
     vertical-align: top;
-    margin: 1em 1em;
     width: 50%;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
+.titulos p {
+
+    margin-bottom: 0;
+
+}
+
+.titulos h3 {
+
+    font-size: 1.4em;
+    margin-top: 1em;
+
+}
+
 /**configuracion de el barra de busqueda superior**/
 
+
+/**Vamos a tener que arreglar algo de aqui**/
 nav {
 
-    margin: 0 0 0 23%;
+    margin-left: 23%;
+    position: fixed;
+    width: 79%;
     background-color: #001D3D;
-    height: 2.7em;
+    height: 2.8em;
     color: #FFC300;
-    padding: 0.7em;
-    font-size: 3em;
+    padding: 0.8em;
+    font-size: 2em;
     display: flex;
     justify-content: space-between;
+    z-index: 4;
 
 }
 
 nav svg {
 
     fill: #FFC300;
-    width: 1em;
+    width: 2em;
     height: auto;
-    margin: 0 0.8em;
+    margin: 0 0.3em;
 
 }
 
@@ -130,7 +153,7 @@ nav svg {
     width: 90%;
     color: #000814;
     font-size: 0.5em;
-    padding: 0 0 0 0.3em;
+    padding: 0 1em;
     margin: 0 2em 0 0.3em;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
@@ -153,24 +176,28 @@ nav button {
 
 .content {
 
-    margin-left: 25%;
-    height: 50em;
+    margin-left: 23%;
+    margin-bottom: 2em;
+    height: 40em;
     text-align: center;
 
 }
 
 .principal {
 
-    padding: 3em 2em;
-    border-bottom: ;
+    padding: 11em 2em 0;
+    border-bottom: solid white 2px;
     
 }
 
 .principal img {
 
-    width: 50%;
+    width: 40%;
     border-radius: 10%;
 
 }
 
 /**carrusel imagenes**/
+
+/**segunda seccion me voy a salir del sena**/
+
