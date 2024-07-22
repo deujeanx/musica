@@ -134,6 +134,12 @@ nav {
 
 }
 
+#ajustes {
+
+    margin-right: 1em;
+
+}
+
 nav svg {
 
     fill: #FFC300;
@@ -160,18 +166,6 @@ nav svg {
 
 }
 
-
-
-nav button {
-
-    background-color: transparent;
-    border: none;
-    font-size: 0.8em;
-    margin-left: -1em;
-    margin-right: 2em;
-
-}
-
 /***empezamos con los contenedores de recomendacion**/
 
 .content {
@@ -185,14 +179,14 @@ nav button {
 
 .principal {
 
-    padding: 11em 2em 0;
+    padding: 9em 2em 0;
     border-bottom: solid white 2px;
     
 }
 
 .principal img {
 
-    width: 40%;
+    width: 30%;
     border-radius: 10%;
 
 }
@@ -201,3 +195,114 @@ nav button {
 
 /**segunda seccion me voy a salir del sena**/
 
+.recomendados {
+
+    display: inline-block;
+    width: 24%;
+
+}
+
+.secundario {
+
+    height: 30em;
+
+}
+
+/**barra de musica**/
+
+.barra {
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff; /* Ajusta el color de fondo según tu diseño */
+    z-index: 1000;
+    margin-left: 23%;
+    background-color: #001D3D;
+    padding: 0 0 1em;
+
+}
+
+.barra .cancion {
+
+    width: 19%;
+    display: inline-block;
+    margin: 0 2em;
+
+}
+
+.controles {
+
+    width: 70%;
+    display: inline-block;
+
+}
+
+.tiempo {
+
+    width: 100%;
+
+}
+
+.tiempo input {
+
+    appearance: none;
+    width: 100%;
+    background-color: #fff;
+    height: 2px;
+    margin: 1em;
+
+}
+
+.tiempo ::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1em;
+    height: 1em;
+    background: #FFF;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.controles button {
+
+    border: none;
+    background-color: transparent;
+    font-size: 2em;
+    color: #FFC300;
+    margin: 0 0.5em;
+
+}
+
+.boton-pausa {
+
+    font-size: 3em !important;
+
+}
+
+.sonido input {
+
+    vertical-align: middle;
+    appearance: none;
+    background-color: #FFC300;
+    height: 2px;
+    margin: 1em;
+
+}
+
+.icono-sonido {
+
+    margin-right: -1em;
+
+}
+
+.sonido ::-webkit-slider-thumb{
+
+    -webkit-appearance: none;
+    appearance: none;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background-color: #FFC300;
+
+}
