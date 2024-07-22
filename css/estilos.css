@@ -11,6 +11,12 @@ img {
 
 }
 
+iframe {
+
+    display: none;
+
+}
+
 a {
 
     text-decoration: none;
@@ -199,12 +205,15 @@ nav svg {
 
     display: inline-block;
     width: 24%;
-
+    text-align: left;
+    
 }
+
 
 .secundario {
 
     height: 30em;
+    margin-bottom: 5em;
 
 }
 
@@ -214,12 +223,12 @@ nav svg {
 
     position: fixed;
     bottom: 0;
+    height: 10em;
     width: 100%;
     background-color: #fff; /* Ajusta el color de fondo según tu diseño */
     z-index: 1000;
     margin-left: 23%;
     background-color: #001D3D;
-    padding: 0 0 1em;
 
 }
 
@@ -230,7 +239,6 @@ nav svg {
     margin: 0 2em;
 
 }
-
 .controles {
 
     width: 70%;
@@ -270,7 +278,7 @@ nav svg {
     background-color: transparent;
     font-size: 2em;
     color: #FFC300;
-    margin: 0 0.5em;
+    margin: 0 1.5%;
 
 }
 
