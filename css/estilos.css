@@ -140,6 +140,13 @@ nav {
 
 }
 
+nav a{
+
+    width: auto;
+    font-size: 0.6em;
+
+}
+
 #ajustes {
 
     margin-right: 1em;
@@ -178,7 +185,6 @@ nav svg {
 
     margin-left: 23%;
     margin-bottom: 2em;
-    height: 40em;
     text-align: center;
 
 }
@@ -187,6 +193,7 @@ nav svg {
 
     padding: 9em 2em 0;
     border-bottom: solid white 2px;
+    height: 29em;
     
 }
 
@@ -312,5 +319,33 @@ nav svg {
     height: 0.5em;
     border-radius: 50%;
     background-color: #FFC300;
+
+}
+
+/**De aqui configuramos la parte de la cancion de forma individual **/
+
+.activado h3 {
+
+    color: #FFC300;
+
+}
+
+.portada_cancion img{
+
+    width: 35%;
+    border-radius: 10%;
+
+
+}
+
+.portada_cancion {
+
+    padding-top: 7em;
+
+}
+
+.cuerpo_cancion {
+
+    overflow: hidden;
 
 }
