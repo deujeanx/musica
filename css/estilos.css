@@ -193,7 +193,8 @@ nav svg {
 
     padding: 9em 2em 0;
     border-bottom: solid white 2px;
-    height: 29em;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
     
 }
 
