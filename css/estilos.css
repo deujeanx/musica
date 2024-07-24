@@ -76,6 +76,12 @@ a {
 
 }
 
+.perfil_superior button:hover {
+
+    box-shadow: #FFC300 3px 3px 3px 1px;
+
+}
+
 /**Esto configura las canciones individualmente**/
 
 .cancion {
@@ -143,7 +149,22 @@ nav {
 nav a{
 
     width: auto;
+    font-size: 1em;
+    vertical-align: bottom;
+    color: #FFC300;
+
+}
+
+.a_especial {
+
     font-size: 0.6em;
+    width: auto;
+
+}
+
+nav a i{
+
+    vertical-align: top;
 
 }
 
@@ -233,7 +254,7 @@ nav svg {
     bottom: 0;
     height: 10em;
     width: 100%;
-    background-color: #fff; /* Ajusta el color de fondo según tu diseño */
+    background-color: #fff;
     z-index: 1000;
     margin-left: 23%;
     background-color: #001D3D;
@@ -251,6 +272,12 @@ nav svg {
 
     width: 70%;
     display: inline-block;
+
+}
+
+.controles a {
+
+    color: #FFC300;
 
 }
 

@@ -3,9 +3,11 @@ document.getElementById('toggleicon').addEventListener('click', function() {
     this.classList.toggle('fa-circle-play');
 });
 
+
+
 document.getElementById('toggleicon').addEventListener('click', function() {
 
-    var audio = document.getElementById('cancion');
+    const audio = document.getElementById('cancion');
 
     if (audio.paused){
 
@@ -18,3 +20,5 @@ document.getElementById('toggleicon').addEventListener('click', function() {
     }
 
 })
+
+
