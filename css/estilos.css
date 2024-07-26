@@ -66,7 +66,7 @@ a {
 .perfil_superior button{
 
     margin: 0.3em 0;
-    width: 10em;
+    width: 95%;
     height: 3em;
     font-size: 1.3em;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -88,10 +88,12 @@ a {
 
     background-color: #001D3D;
     height: auto;
-    width: 90%;
+    width: 98%;
     margin: 2em 0;
     border-radius: 1em;
-    font-size: 0.8em;
+    font-size: 80%;
+    overflow: hidden;
+    white-space: nowrap;
 
 }
 
@@ -252,7 +254,7 @@ nav svg {
 
     position: fixed;
     bottom: 0;
-    height: 10em;
+    height: 9em;
     width: 100%;
     background-color: #fff;
     z-index: 1000;
@@ -272,6 +274,8 @@ nav svg {
 
     width: 70%;
     display: inline-block;
+    vertical-align: top;
+    padding-right: 10%;
 
 }
 
@@ -281,9 +285,11 @@ nav svg {
 
 }
 
+
 .tiempo {
 
     width: 100%;
+    padding-right: 27%;
 
 }
 
@@ -313,13 +319,19 @@ nav svg {
     background-color: transparent;
     font-size: 2em;
     color: #FFC300;
-    margin: 0 1.5%;
+    margin: 0 1%;
 
 }
 
 .boton-pausa {
 
     font-size: 3em !important;
+
+}
+
+.sonido label{
+
+    display: inline-block;
 
 }
 
@@ -333,9 +345,21 @@ nav svg {
 
 }
 
+.sonido {
+
+    text-align: left;
+
+}
+
 .icono-sonido {
 
     margin-right: -1em;
+
+}
+
+.sonido_fondo {
+
+    display: inline-block;
 
 }
 
@@ -377,3 +401,133 @@ nav svg {
     overflow: hidden;
 
 }
+
+
+/**responsive hamburguesa**/
+
+#hamburguesa {
+
+    display: none;
+    color: #FFC300;
+
+}
+
+#cajacheck {
+
+    display: none;
+
+}
+
+#sonido_check{
+
+    display: none;
+    position: absolute;
+
+}
+
+@media screen and (max-width: 999px) and (min-width: 500px) {
+    
+    .secundario .cancion {
+
+        width: 40%;
+
+    }
+
+    nav {
+
+        margin-left: 0;
+        width: 100%;
+
+    }
+
+    .lista_reproduccion {
+
+        display: none;
+
+    }
+
+    .barra .cancion {
+
+        width: 30%;
+        margin-right: 0;
+        margin-left: 2%;
+
+    }
+
+    .barra {
+
+        margin-left: 0;
+
+    }
+
+    .content {
+
+        margin-left: 0;
+
+    }
+
+    .controles {
+
+        padding-right: 0;
+        text-align: center;
+        width: 65%;
+
+    }
+
+    .tiempo {
+
+        padding-right: 5%;
+
+    }
+
+
+    .secundario {
+
+        margin-bottom: 50%;
+
+    }
+
+    #hamburguesa {
+
+        display: block;
+        cursor: pointer;
+        margin-right: 0.5em;
+
+    }
+
+
+    .sonido_fondo {
+
+        display: none;
+
+    }
+
+    #icono_sonido{
+
+        cursor: pointer;
+
+    }
+
+    #separar_icono {
+
+        margin-left: 7%;
+
+    }
+
+    #sonido_check:checked + #icono_sonido + .sonido_fondo {
+
+        display: block;
+        position: absolute;
+        top: 1%;
+        right: 12%;
+        background-color: #000814;
+        border-radius: 10px;
+
+    }
+
+
+}
+
+
+/**Necesitamos cuadrar el responsive de la lista de reproduccion tenemos el checked oculto y no tengo idea de por que no da
+solucionar ;(**/

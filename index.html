@@ -21,7 +21,7 @@
             <button>Registrarse</button>
         </div>
         <a href="lomalodeserbueno.html">
-            <div class="cancion">
+            <div class="cancion activado">
                 <img src="img/lomalodeserbueno.jpg" alt="">
                 <div class="titulos">
                     <h3>Lo malo de ser bueno</h3>
@@ -95,6 +95,8 @@
     </div>
     <!--Barra de navegacion superior-->
     <nav>
+        <input type="checkbox" id="cajacheck">
+        <label id="icono_hamburguesa" for="cajacheck"><i id="hamburguesa" class="fa-solid fa-grip-lines"></i></label>
         <a class="a_especial" href="listas.html"><svg class="librito" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 4.707c-2.938-1.83-7.416-2.567-12-2.707v17.714c3.937.12 7.795.681 10.667 1.995.846.388 1.817.388 2.667 0 2.872-1.314 6.729-1.875 10.666-1.995v-17.714c-4.584.14-9.062.877-12 2.707zm-10 13.104v-13.704c5.157.389 7.527 1.463 9 2.334v13.168c-1.525-.546-4.716-1.505-9-1.798zm20 0c-4.283.293-7.475 1.252-9 1.799v-13.171c1.453-.861 3.83-1.942 9-2.332v13.704z"/></svg></a>
         <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
         <input type="search" class="busqueda" placeholder="Buscar">
@@ -210,10 +212,13 @@
                     <i id="toggleicon" class="fa-solid fa-circle-pause"></i>
                 </button>
                 <button class="sonido">
-                    <i class="fa-solid fa-volume-low icono-sonido"></i>
-                    <input id="sonido" type="range" min="0" max="100" value="100">
+                    <input type="checkbox" id="sonido_check">
+                    <label id="icono_sonido" for="sonido_check"><i class="fa-solid fa-volume-low icono-sonido"></i></label>
+                    <div class="sonido_fondo">
+                        <input id="sonido" type="range" min="0" max="100" value="100">
+                    </div>
                 </button>
-                <button>
+                <button id="separar_icono">
                     <a href="welcometothejungle.html"><i class="fa-solid fa-circle-chevron-right"></i></a>
                 </button>
             </div>
