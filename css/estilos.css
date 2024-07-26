@@ -254,7 +254,7 @@ nav svg {
 
     position: fixed;
     bottom: 0;
-    height: 9em;
+    height: auto;
     width: 100%;
     background-color: #fff;
     z-index: 1000;
@@ -412,11 +412,6 @@ nav svg {
 
 }
 
-#cajacheck {
-
-    display: none;
-
-}
 
 #sonido_check{
 
@@ -522,6 +517,16 @@ nav svg {
         right: 12%;
         background-color: #000814;
         border-radius: 10px;
+
+    }
+
+
+    .visible {
+
+        display: block;
+        position: fixed;
+        z-index: 99;
+        width: 60%;
 
     }
 
