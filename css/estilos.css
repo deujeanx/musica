@@ -384,9 +384,15 @@ nav svg {
 
 .portada_cancion img{
 
-    width: 35%;
+    width: 40%;
     border-radius: 10%;
 
+
+}
+
+.portada_cancion {
+
+    border: none;
 
 }
 
@@ -425,6 +431,18 @@ nav svg {
     .secundario .cancion {
 
         width: 40%;
+
+    }
+
+    .portada_cancion img{
+
+        width: 45%;
+
+    }
+
+    .secundario .cancion h3 {
+
+        margin-top: 0.5em;
 
     }
 
@@ -534,5 +552,134 @@ nav svg {
 }
 
 
-/**Necesitamos cuadrar el responsive de la lista de reproduccion tenemos el checked oculto y no tengo idea de por que no da
-solucionar ;(**/
+@media screen and (max-width: 499px) {
+    
+    .secundario .cancion {
+
+        width: 40%;
+
+    }
+
+    .portada_cancion img{
+
+        width: 60%;
+
+    }
+
+    nav {
+
+        margin-left: 0;
+        width: 100%;
+
+    }
+
+    .lista_reproduccion {
+
+        display: none;
+
+    }
+
+    .barra .cancion {
+
+        width: 30%;
+        margin-right: 0;
+        margin-left: 2%;
+
+    }
+
+    .barra {
+
+        margin-left: 0;
+
+    }
+
+    .content {
+
+        margin-left: 0;
+
+    }
+
+    .controles {
+
+        padding-right: 0;
+        text-align: center;
+        width: 65%;
+        font-size: 0.9em;
+
+    }
+
+    .tiempo {
+
+        padding-right: 5%;
+
+    }
+
+
+    .secundario {
+
+        margin-bottom: 50%;
+
+    }
+
+    .secundario .cancion {
+
+        width: 70%;
+        font-size: 99%;
+
+    }
+
+    #hamburguesa {
+
+        display: block;
+        cursor: pointer;
+        margin-right: 0.5em;
+
+    }
+
+
+    .sonido_fondo {
+
+        display: none;
+
+    }
+
+    #icono_sonido{
+
+        cursor: pointer;
+
+    }
+
+    #separar_icono {
+
+        margin-left: 7%;
+
+    }
+
+    #sonido_check:checked + #icono_sonido + .sonido_fondo {
+
+        display: block;
+        position: absolute;
+        top: 1%;
+        right: 12%;
+        background-color: #000814;
+        border-radius: 10px;
+
+    }
+
+
+    .visible {
+
+        display: block;
+        position: fixed;
+        z-index: 99;
+        width: 60%;
+
+    }
+
+    .principal img {
+
+        width: 60%;
+
+    }
+
+}
