@@ -782,7 +782,8 @@ nav svg {
     background-color: #000814;
     color: #FFFFFF;
     width: 20%;
-    height: 55%;
+    padding-bottom: 8%;
+    position: relative;
     text-align: center;
     font-size: 2em;
     border-radius: 10px;
