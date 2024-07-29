@@ -24,6 +24,8 @@ a {
 }
 
 
+
+
 .fondo {
 
     min-height: 100vh;
@@ -683,3 +685,139 @@ nav svg {
     }
 
 }
+
+/**Inicio de sesion**/
+
+#cuerpo_fondo {
+
+    background-image: url(../img/fondo.png);
+
+}
+
+.inicio_sesion {
+
+    background-color: #001D3D;
+    width: 70%;
+    margin: 5em 5%;
+    padding: 1em 10% 2em;
+    border-radius: 10px;
+    text-align: center;
+    color: #FFC300;
+
+}
+
+.inicio_sesion h2 {
+
+    color: #FFC300;
+    font-size: 4em;
+    margin-bottom: 1em;
+
+}
+
+.inicio_sesion input {
+
+    border: none;
+    background-color: transparent;
+    border-bottom: #FFFFFF solid 1px;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+
+}
+
+.inicio_sesion button {
+
+    border: none;
+    background-color: #FFC300;
+    font-size: 3em;
+    width: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.inicio_sesion i {
+
+    position: absolute;
+    font-size: 10em;
+    top: 30%;
+    left: 10%;
+
+}
+
+/**Listas de reproduccion **/
+
+.cancion_lista_novisible {
+
+    display: none;
+
+}
+
+.cancion_lista_visble {
+
+    border-radius: 10px;
+    width: 20%;
+    display: block;
+
+}
+
+.fondo_lista {
+
+    background-color: #001D3D;
+    border-radius: 10px;
+    margin: 10% 10%;
+    padding: 1em 2em;
+    height: 20em;
+
+}
+
+.fondo_lista img {
+
+    width: 18%;
+    border-radius: 10px;
+
+}
+
+.anadir {
+
+    background-color: #000814;
+    color: #FFFFFF;
+    width: 20%;
+    height: 55%;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+
+}
+
+.anadir i {
+
+    margin-top: 35%;
+
+}
+
+.anadi_cancion {
+
+
+    background-color: #000814;
+    width: 30%;
+    position: absolute;
+    top: 10%;
+    border-radius: 10px;
+    padding: auto 2em;
+    display: none;
+    overflow-y: auto;
+    height: 100vh;
+
+}
+
+.anadi_cancion_visible {
+
+    display: block;
+
+}
+
+/**No se que atrocidad estamos haciendo con el codigo pero fe, sigue con js en listas  hacer que cada vez que se precione una aparezca otra
+**/
