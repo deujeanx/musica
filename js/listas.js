@@ -16,6 +16,7 @@ const cancion_sasageyo = document.getElementById('sasageyo');
 const lista_sasageyo = document.querySelector('.sasageyo_lista');
 const cancion_cris = document.getElementById('cris');
 const lista_cris = document.querySelector('.cris_lista');
+const a_link = document.querySelector('.link_cancionsita');
 
 anadir.addEventListener('click', function() {
 
@@ -28,6 +29,8 @@ cancion_lomalo.addEventListener('click', function() {
     lista_lomalo.classList.add('cancion_lista_visible');
     lista_lomalo.classList.remove('cancion_lista_novisible')
     lista.classList.remove('anadi_cancion_visible')
+    a_link.classList.add('link_cancion_visible');
+    a_link.classList.remove('link_cancionsita');
 
 });
 
@@ -84,6 +87,6 @@ cancion_cris.addEventListener('click', function() {
 
     lista_cris.classList.add('cancion_lista_visible');
     lista_cris.classList.remove('cancion_lista_novisible');
-    lista.classList.remove('anadi_cancion_visible');
+    lista.classList.remove('anadi_cancion_visible');                                                                                                                                                                                0
 
 })
