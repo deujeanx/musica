@@ -812,9 +812,9 @@ nav svg {
     background-color: #000814;
     color: white;
     text-align: center;
-    width: 20%;
+    width: auto;
     margin: 0 1em 1em;
-    height: 13em;
+    height: 19em;
     border-radius: 10px;
     display: inline-block;
     vertical-align: middle;
@@ -824,7 +824,8 @@ nav svg {
 
 .cuadrado_anadir img {
 
-    width: 80%;
+    width: 15em;
+    border-radius: 10px;
 
 }
 
@@ -860,6 +861,7 @@ nav svg {
 .puntero {
 
     cursor: pointer;
+    width: 15em;
 
 }
 
@@ -867,15 +869,21 @@ nav svg {
     
     .cuadrado_anadir {
 
-        width: 35%;
+        width: auto;
         height: 16em;
 
     }
 
     .cuadrado_anadir img {
 
-        width: 70%;
+        width: 10em;
     
+    }
+
+    .puntero {
+
+        width: 10em;
+
     }
 
 }
@@ -884,7 +892,7 @@ nav svg {
     
     .cuadrado_anadir {
 
-        width: 70%;
+        width: 10em;
         height: 17em;
 
     }
@@ -897,7 +905,7 @@ nav svg {
 
     .cuadrado_anadir img {
 
-        width: 70%;
+        width: 10em;
     
     }
 
