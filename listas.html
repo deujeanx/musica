@@ -3,85 +3,154 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>listas</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>listas</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body id="cuerpo_fondo" class="fondo_no_bajar">
-    <section>
-        <div class="fondo_lista">
-            <div id="boton_anadir" class="anadir">
+<body class="fondo_lista">
+    <header class="barra_lista">
+        <a href="index.html"><i class="fa-solid fa-house"></i></a>
+    </header>
+    <section class="tabla_anadir">
+        <div id="mas" class="cuadrado_anadir puntero">
+            <div class="icono_mas">
                 <i class="fa-solid fa-plus"></i>
             </div>
-            <a class="link_cancion" href="greatescape.html"><img class="cancion_lista_novisible greatescape_lista" src="img/greatescape.jpeg" alt=""></a>
-            <a class="link_cancionsita" href="lomalodeserbueno.html"><img class="cancion_lista_novisible lomalo_lista" src="img/lomalodeserbueno.jpg" alt=""></a>
-            <a class="link_cancion" href="welcometothejungle.html"><img src="img/gunsnroses.jpg" class="cancion_lista_novisible welcome_lista" alt=""></a>
-            <a class="link_cancion" href="fanaticasensual.html"><img src="img/planb.jpeg" class="cancion_lista_novisible fanatica_lista" alt=""></a>
-            <a class="link_cancion" href="thunderstruck.html"><img src="img/thunderstruck.jpg" class="cancion_lista_novisible thunder_lista" alt=""></a>
-            <a class="link_cancion" href="bluebird.html"><img src="img/bluebird.jpeg" alt="" class="cancion_lista_novisible blue_lista"></a>
-            <a class="link_cancion" href="shinsowosasageyo.html"><img src="img/sasageyo.jpeg" class="cancion_lista_novisible sasageyo_lista" alt=""></a>
-            <a class="link_cancion" href="crisvalencia.html"><img src="img/cris.webp" class="cancion_lista_novisible cris_lista" alt=""></a>
-            <div class="anadi_cancion">
-                <div id="lomalo" class="cancion">
-                    <img src="img/lomalodeserbueno.jpg" alt="">
-                    <div class="titulos">
-                        <h3>Lo malo de ser bueno</h3>
-                        <p>El Cuarteto de Nos</p>
-                    </div> 
-                </div>
-                <div class="cancion" id="greatscape">
-                    <img src="img/greatescape.jpeg" alt="">
-                    <div class="titulos">
-                        <h3>Great escape</h3>
-                        <p>Cinema Staff</p>
-                    </div>
-                </div>
-                <div class="cancion" id="welcome">
-                    <img src="img/gunsnroses.jpg" alt="">
-                    <div class="titulos">
-                        <h3>Welcome to the jungle</h3>
-                        <p>Guns N' Roses</p>
-                    </div>
-                </div>
-                <div class="cancion" id="fanatica">
-                    <img src="img/planb.jpeg" alt="">
-                    <div class="titulos">
-                        <h3>Fanatica sensual</h3>
-                        <p>Plan B</p>
-                    </div>
-                </div>
-                <div class="cancion" id="thunder">
-                    <img src="img/thunderstruck.jpg" alt="">
-                    <div class="titulos">
-                        <h3>Thunderstruck</h3>
-                        <p>AC/DC</p>
-                    </div>
-                </div>
-                <div class="cancion" id="blue">
-                    <img src="img/bluebird.jpeg" alt="">
-                    <div class="titulos">
-                        <h3>Blue bird</h3>
-                        <p>Ikomonogakari</p>
-                    </div>
-                </div>
-                <div class="cancion" id="sasageyo">
-                    <img src="img/sasageyo.jpeg" alt="">
-                    <div class="titulos">
-                        <h3>Shinzo wo sasageyo!</h3>
-                        <p>Linked Horizon</p>
-                    </div>
-                </div>
-                <div class="cancion" id="cris">
-                    <img src="img/cris.webp" alt="">
-                    <div class="titulos">
-                        <h3>Cris Valencia</h3>
-                        <p>El primo de mompotes</p>
-                    </div>
+        </div>
+        <a href="lomalodeserbueno.html">
+            <div class="lomalo cuadrado_no_visible">
+                <img src="img/lomalodeserbueno.jpg" alt="">
+                <div class="titulo_lista">
+                    <h3>Lo malo de ser bueno</h3>
+                    <p>El Cuarteto de Nos</p>
                 </div>
             </div>
-        </div>
+        </a>
+        <a href="welcometothejungle.html">
+            <div class="welcome cuadrado_no_visible">
+                <img src="img/gunsnroses.jpg" alt="">
+                <div class="titulo_lista">
+                    <h3>Welcome to the jungle</h3>
+                    <p>Guns N' Roses</p>
+                </div>
+            </div>
+        </a>
+        <a href="fanaticasensual.html">
+            <div class="fanatica cuadrado_no_visible">
+                <img src="img/planb.jpeg" alt="">
+                <div class="titulo_lista">
+                    <h3>Fanatica sensual</h3>
+                    <p>Plan B</p>
+                </div>
+            </div>
+        </a>
+        <a href="thunderstruck.html">
+            <div class="thunder cuadrado_no_visible">
+                <img src="img/thunderstruck.jpg" alt="">
+                <div class="titulo_lista">
+                    <h3>Thunderstruck</h3>
+                    <p>AC/DC</p>
+                </div>
+            </div>
+        </a>
+        <a href="bluebird.html">
+            <div class="blue cuadrado_no_visible">
+                <img src="img/bluebird.jpeg" alt="">
+                <div class="titulo_lista">
+                    <h3>Blue bird</h3>
+                    <p>Ikomonogakari</p>
+                </div>
+            </div>
+        </a>
+        <a href="shinsowosasageyo.html">
+            <div class="sasageyo cuadrado_no_visible">
+                <img src="img/sasageyo.jpeg" alt="">
+                <div class="titulo_lista">
+                    <h3>Shinzo wo sasageyo!</h3>
+                    <p>Linked Horizon</p>
+                </div>
+            </div>
+        </a>
+        <a href="greatescape.html">
+            <div class="great cuadrado_no_visible">
+                <img src="img/greatescape.jpeg" alt="">
+                <div class="titulo_lista">
+                    <h3>Great escape</h3>
+                    <p>Cinema Staff</p>
+                </div>
+            </div>
+        </a>
+        <a href="crisvalencia.html">
+            <div class="cris cuadrado_no_visible">
+                <img src="img/cris.webp" alt="">
+                <div class="titulo_lista">
+                    <h3>Cris Valencia</h3>
+                    <p>El primo de mompotes</p>
+                </div>
+            </div>
+        </a>
     </section>
-
-    <script src="js/listas.js"></script>
+    <div class="cuadrado_no_visible lista">
+        <div id="lomalo" class="cancion">
+            <img src="img/lomalodeserbueno.jpg" alt="">
+            <div class="titulos">
+                <h3>Lo malo de ser bueno</h3>
+                <p>El Cuarteto de Nos</p>
+            </div>
+        </div>
+        <div id="welcome" class="cancion">
+            <img src="img/gunsnroses.jpg" alt="">
+            <div class="titulos">
+                <h3>Welcome to the jungle</h3>
+                <p>Guns N' Roses</p>
+            </div>
+        </div>
+        <div id="fanatica" class="cancion">
+            <img src="img/planb.jpeg" alt="">
+            <div class="titulos">
+                <h3>Fanatica sensual</h3>
+                <p>Plan B</p>
+            </div>
+        </div>
+        <div id="thunder" class="cancion">
+            <img src="img/thunderstruck.jpg" alt="">
+            <div class="titulos">
+                <h3>Thunderstruck</h3>
+                <p>AC/DC</p>
+            </div>
+        </div>
+        <div id="blue" class="cancion">
+            <img src="img/bluebird.jpeg" alt="">
+            <div class="titulos">
+                <h3>Blue bird</h3>
+                <p>Ikomonogakari</p>
+            </div>
+        </div>
+        <div id="sasageyo" class="cancion">
+            <img src="img/sasageyo.jpeg" alt="">
+            <div class="titulos">
+                <h3>Shinzo wo sasageyo!</h3>
+                <p>Linked Horizon</p>
+            </div>
+        </div>
+        <div id="great" class="cancion">
+            <img src="img/greatescape.jpeg" alt="">
+            <div class="titulos">
+                <h3>Great escape</h3>
+                <p>Cinema Staff</p>
+            </div>
+        </div>
+        <div id="cris" class="cancion">
+            <img src="img/cris.webp" alt="">
+            <div class="titulos">
+                <h3>Cris Valencia</h3>
+                <p>El primo de mompotes</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/lista.js"></script>
 </body>
 </html>
